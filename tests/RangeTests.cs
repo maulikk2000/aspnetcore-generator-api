@@ -12,6 +12,7 @@ namespace tests
         {
             var range = new Range {Count = 3};
             var generated = range.Of(() => "");
+            //demo test code.
 
             Assert.Equal(3, generated.Count());
         }
